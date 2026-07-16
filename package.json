@@ -1,0 +1,38 @@
+{
+  "name": "eventticketing_ccitubes",
+  "version": "1.0.0",
+  "description": "project ini merupakan sistem backend untuk platform event ticketing dan booking\r fitur utama : \r -Manajemen event(CRUD)\r -Booking ticket menggunakan kuota\r -pembuatan ticket\r -ticket validation saat check-in\r -role based access control (admin, organizer, customer)\r ---",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamapradana/EventTicketing_CCITUBES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gamapradana/EventTicketing_CCITUBES/issues"
+  },
+  "homepage": "https://github.com/gamapradana/EventTicketing_CCITUBES#readme",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "qrcode": "^1.5.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^5.22.0"
+  }
+}
